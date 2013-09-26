@@ -1,0 +1,16 @@
+{
+  "name": "jsdoc-parser",
+  "version": "0.1.0",
+  "author": "Jan Kuča (http://jankuca.com)",
+
+  "main": "./src/jsdoc-parser",
+
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  }
+}
